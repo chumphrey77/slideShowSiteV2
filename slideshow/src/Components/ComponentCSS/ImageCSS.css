@@ -1,0 +1,24 @@
+.Slides {
+    width: 100%;
+    height: 80vh;
+}
+
+.img-fluid {
+    max-height: 80vh;
+}
+
+.App{
+    height: 10vh;
+}
+
+.App-header{
+    height: 95.9vh;
+    min-height: 89vh;
+}
+.card{
+    width: 100%;
+    background-color: #343a40;
+}
+.btn-secondary{
+    background-color: #282c34;
+}
