@@ -10,8 +10,7 @@ import Calendar from './Pages/MainPages/Calendar';
 import Eighteen from './Pages/YearPages/2018';
 import Nineteen from './Pages/YearPages/2019';
 import Twenty from './Pages/YearPages/2020';
-import DecEighteen from './Pages/MonthPages/Dec2018';
-
+import DecEighteen from './Pages/MonthPages/2018/Dec2018';
 
 function App() {
   return (
