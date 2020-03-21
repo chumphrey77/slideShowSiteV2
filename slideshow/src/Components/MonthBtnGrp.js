@@ -2,6 +2,7 @@ import React from 'react'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './ComponentCSS/MonthBtnGrp.css'
 import './ComponentCSS/ImageCSS.css';
 const MonthBtnGrp = (props) => {
     var jan = '/Jan'.concat(props.year)
@@ -9,10 +10,10 @@ const MonthBtnGrp = (props) => {
     var mar = '/Mar'.concat(props.year)
     var apr = '/Apr'.concat(props.year)
     var may = '/May'.concat(props.year)
-    var june = '/June'.concat(props.year)
-    var july = '/July'.concat(props.year)
+    var jun = '/Jun'.concat(props.year)
+    var jul = '/Jul'.concat(props.year)
     var aug = '/Aug'.concat(props.year)
-    var sept = '/Sept'.concat(props.year)
+    var sep = '/Sep'.concat(props.year)
     var oct = '/Oct'.concat(props.year)
     var nov = '/Nov'.concat(props.year)
     var dec = '/Dec'.concat(props.year)
@@ -44,7 +45,7 @@ const MonthBtnGrp = (props) => {
         novDis = true;
         decDis = false;
     }
-    else if (props.year === '2020'){
+    else if (props.year === '2020'){ // Add months here as they happen by marking as false
         janDis = false;
         febDis = false;
         marDis = false;
@@ -81,10 +82,10 @@ const MonthBtnGrp = (props) => {
             <Button variant="secondary" href={mar} disabled={marDis}>Mar</Button>
             <Button variant="secondary" href={apr} disabled={aprDis}>Apr</Button>
             <Button variant="secondary" href={may} disabled={mayDis}>May</Button>
-            <Button variant="secondary" href={june} disabled={junDis}>June</Button>
-            <Button variant="secondary" href={july} disabled={julDis}>July</Button>
+            <Button variant="secondary" href={jun} disabled={junDis}>June</Button>
+            <Button variant="secondary" href={jul} disabled={julDis}>July</Button>
             <Button variant="secondary" href={aug} disabled={augDis}>Aug</Button>
-            <Button variant="secondary" href={sept} disabled={sepDis}>Sept</Button>
+            <Button variant="secondary" href={sep} disabled={sepDis}>Sept</Button>
             <Button variant="secondary" href={oct}disabled={octDis}>Oct</Button>
             <Button variant="secondary" href={nov} disabled={novDis}>Nov</Button>
             <Button variant="secondary" href={dec}disabled={decDis}>Dec</Button>

@@ -18,6 +18,13 @@ const DecEighteen = () => {
                     <Carousel.Caption>
                     </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <StdImage
+                        imagePath={im1}
+                    />
+                    <Carousel.Caption>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Slides>
         </React.Fragment>
     )
